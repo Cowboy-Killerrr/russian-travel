@@ -11,4 +11,4 @@
 - адаптивная верстка
 
 ## 👀 Посмотреть сайт
-https://cowboy-killerrr.github.io/travel/
+https://cowboy-killerrr.github.io/russian-travel/
