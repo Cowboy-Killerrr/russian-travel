@@ -1,9 +1,8 @@
 .header__logo {
-  width: 176px;
-  height: 52px;
+  max-width: 176px;
 }
-@media (max-width: 320px) {
-    .header__logo {
-        transform: scale(0.8);
-      }
+@media (max-width: 375px) {
+  .header__logo {
+    max-width: 142px;
+  }
 }
