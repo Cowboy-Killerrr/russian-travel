@@ -1,5 +1,5 @@
 .cover__link {
-  background-image: url("../../../img/cover.jpg");
+  background-image: url("../../../images/cover.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -46,5 +46,6 @@
 @media screen and (max-width: 425px) {
   .cover__link {
     min-height: 200px;
+    gap: 16px;
   }
 }
