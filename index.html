@@ -10,10 +10,14 @@
   <body class="page">
     <!-- header -->
     <header class="header">
-      <img src="./images/svg/logo.svg" alt="Путшествия по России" class="header__logo">
+      <img
+        src="./images/svg/logo.svg"
+        alt="Путшествия по России"
+        class="header__logo"
+      />
       <ul class="header__lang-list">
-        <li><button class="header__btn header__btn_active">Ru</button></li>
-        <li><button class="header__btn">En</button></li>
+        <li><a href="#" class="header__link header__link_active">Ru</a></li>
+        <li><a href="#" class="header__link">En</a></li>
       </ul>
     </header>
 
@@ -48,7 +52,7 @@
 
       <!-- description -->
       <section class="descr">
-        <article class="descr__article">
+        <div class="descr__container">
           <h2 class="descr__title">Чего мы&nbsp;там не&nbsp;видели?</h2>
           <p class="descr__paragraph">
             По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но только
@@ -63,35 +67,25 @@
             вашего отпуска.
           </p>
           <ul class="descr__digits">
-            <li>
-              <p class="descr__digit-title">
-                Часовых поясов <span class="descr__digit">11</span>
-              </p>
+            <li class="descr__digit-title">
+              Часовых поясов <span class="descr__digit">11</span>
             </li>
-            <li>
-              <p class="descr__digit-title">
-                Объектов природного наследия ЮНЕСКО
-                <span class="descr__digit">12</span>
-              </p>
+            <li class="descr__digit-title">
+              Объектов природного наследия ЮНЕСКО
+              <span class="descr__digit">12</span>
             </li>
-            <li>
-              <p class="descr__digit-title">
-                Объектов культурного наследия ЮНЕСКО
-                <span class="descr__digit">16</span>
-              </p>
+            <li class="descr__digit-title">
+              Объектов культурного наследия ЮНЕСКО
+              <span class="descr__digit">16</span>
             </li>
-            <li>
-              <p class="descr__digit-title">
-                Природных заповедников <span class="descr__digit">105</span>
-              </p>
+            <li class="descr__digit-title">
+              Природных заповедников <span class="descr__digit">105</span>
             </li>
-            <li>
-              <p class="descr__digit-title">
-                Аэропортов <span class="descr__digit">241</span>
-              </p>
+            <li class="descr__digit-title">
+              Аэропортов <span class="descr__digit">241</span>
             </li>
           </ul>
-        </article>
+        </div>
       </section>
 
       <!-- gallery -->
@@ -384,7 +378,9 @@
           target="_blank"
           class="cover__link"
         >
-          <h2 class="cover__title">До&nbsp;Байкала &laquo;на&nbsp;собаках&raquo;</h2>
+          <h2 class="cover__title">
+            До&nbsp;Байкала &laquo;на&nbsp;собаках&raquo;
+          </h2>
           <p class="cover__subtitle">
             По&nbsp;мотивам учебной темы о&nbsp;Транссибе&mdash; путешествие
             от&nbsp;столицы до&nbsp;Байкала на&nbsp;электричках.

@@ -1,9 +1,6 @@
-.header__btn {
-  background: none;
-  border: none;
-  cursor: pointer;
-  box-sizing: border-box;
-  padding: 0;
+.header__link {
+  display: block;
+  text-decoration: none;
   color: var(--text);
   font-style: normal;
   font-weight: 400;
@@ -11,7 +8,7 @@
   line-height: 1.2;
 }
 
-.header__btn:hover {
+.header__link:hover {
   opacity: 0.8;
 }
 

@@ -1,4 +1,4 @@
-.descr__article {
+.descr__container {
   box-sizing: border-box;
   max-width: 690px;
   display: flex;
@@ -7,7 +7,7 @@
 }
 
 @media screen and (max-width: 768px) {
-  .descr__article {
+  .descr__container {
     max-width: 100%;
   }
 }
