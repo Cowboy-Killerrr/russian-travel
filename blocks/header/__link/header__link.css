@@ -5,16 +5,16 @@
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
-  line-height: 1.2;
+  line-height: 1.17;
 }
 
 .header__link:hover {
   opacity: 0.8;
 }
 
-@media (max-width: 320px) {
-  .header__btn {
+@media screen and (max-width: 320px) {
+  .header__link {
     font-size: 18px;
-    line-height: 1.1;
+    line-height: 1.11;
   }
 }
